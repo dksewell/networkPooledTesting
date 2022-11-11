@@ -1,0 +1,12 @@
+Package: networkPooledTesting
+Type: Package
+Title: Leveraging networks to improve pooled testing efficiencyt
+Version: 1.0
+Date: 2022-02-09
+Author: Daniel K. Sewell
+Maintainer: Dan Sewell <daniel-sewell@uiowa.edu>
+Description: This package uses a simulated annealing to leverage network information in order to achieve optimal pool assignments when conducting pooled testing.
+License: GPL-2 
+Imports: Rcpp (>= 1.0.7), Matrix, cluster, dplyr, igraph, intergraph, rARPACK, graphics, methods, stats, utils
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.2
